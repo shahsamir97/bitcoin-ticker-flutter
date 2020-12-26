@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 const urlbase = "https://rest.coinapi.io/v1/exchangerate/BTC/USD";
-const kAPIkey = ' 91CF48AD-7287-43FD-90F0-2C3FC428BCE6';
+const kAPIkey = ' Your Api key'; //TODO: put your own api key
 
 class Network {
   Future getData(String baseCurrency, String convertTo) async {
